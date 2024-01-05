@@ -1,5 +1,6 @@
 {
   "name": "@giovankes/kubernetes",
+  "version": "0.0.1",
   "author": "Giovanni",
   "license": "MIT",
   "module": "./src/index.js",

@@ -7,6 +7,7 @@ import { format } from './utils/format.js';
 //TODO: destructure data?
 export default class Client {
   constructor(config) {
+    console.log(config);
     //NOTE: set base_url equal to where the kubernetes install is running
     //PASSED BY END USER
     this.base_url = `${config.host}:${config.port}/api/v1`;
